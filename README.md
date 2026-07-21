@@ -1,24 +1,3 @@
-## Added by Prem
-pnpm create next-app@latest ./ 
-✔ Would you like to use the recommended Next.js defaults? › No, customize settings
-✔ Would you like to use TypeScript? … No / Yes
-✔ Which linter would you like to use? › ESLint
-✔ Would you like to use React Compiler? … No / Yes
-✔ Would you like to use Tailwind CSS? … No / Yes
-✔ Would you like your code inside a `src/` directory? … No / Yes
-✔ Would you like to use App Router? (recommended) … No / Yes
-✔ Would you like to customize the import alias (`@/*` by default)? … No / Yes
-✔ Would you like to include AGENTS.md to guide coding agents to write up-to-date Next.js code? … No / Yes
-Creating a new Next.js app in /var/www/html/nexacore.
-
-
-pnpm add @prisma/client bcryptjs && pnpm add -D prisma @types/bcryptjs && pnpm add resend
-pnpm prisma init
-pnpm add -D dotenv
-pnpm exec prisma migrate dev --name init
-pnpm prisma generate
-pnpm add -D tsx
-
 ## Added by PNPM
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
